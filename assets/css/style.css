@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/newyorktimesbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+h1.text-center {
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+div.panel-heading {
+    background-color: #000 !important;
+}
+
+div#well-section.panel-body {
+    padding: 30px;
+}
+
+.panel-body a {
+    word-break: break-all;
+}
+
+button#clear-all.btn.btn-default {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+button#run-search.btn.btn-default {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+}
